@@ -3,9 +3,9 @@ This repository contains my submission for the Module 6 Challenge due on 11/26. 
 --------------------
 This assignment focuses on weather data analysis and vacation planning using Python APIs, including OpenWeatherMap and Geoapify.
 
-Part 1: WeatherPy
+Part 1: WeatherPy <br>
 The WeatherPy Jupyter notebook visualizes the weather patterns of over 500 randomly selected cities across varying latitudes. Using the OpenWeatherMap API, I retrieved weather data and generated scatter plots to showcase the relationships between latitude and key weather variables: temperature, humidity, cloudiness, and wind speed. Additionally, linear regression models were applied to visualize trends and analyze correlations in the data, split between the Northern and SouthernHemispheres. I summarized the results of each analysis in text sections of the notebook labelled "Discussion About the Linear Relationship".
 	
-Part 2: VacationPy
+Part 2: VacationPy <br>
 The VacationPy Jupyter notebook helps plan ideal vacation spots based on specific weather criteria. Using the Geoapify API and geoViews library, this script narrows down the city list to include only the cities with ideal weather conditions (temperatures between 21 and 27 degrees Celsius, wind speed lower than 4.5 m/s, and zero cloudiness) and visualizes them on a map. For each city, the first hotel within a 10,000-meter radius is found using the Geoapify API, with hotel details displayed on the map.
 
